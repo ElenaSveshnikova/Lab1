@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="hello_message">Привет!</string>
+    <string name="ButtonText">Я кнопка</string>
+    <string name="ButtonText1">Начать дискуссию</string>
+    <string name="title_activity_login">Активация входа</string>
+    <string name="text_label">Вход</string>
+    <string name="login_message">Вход</string>
+    <string name="login_name">ваш логин</string>
+    <string name="password"> Пароль </string>
+    <string name="example_button1">Кнопка 1</string>
+    <string name="example_button2">Кнопка 2</string>
+    <string name="enable_something">Включить что-то</string>
+    <string name="action_sign_in">Вход</string>
+    <string name="button_show_icon">Иконка</string>
+    <string name="prompt_email">Ваш Email</string>
+    <string name="dialog_message">Вы хотите закончить ваше активити?</string>
+    <string name="dialog_title">Алерт диалог</string>
+</resources>

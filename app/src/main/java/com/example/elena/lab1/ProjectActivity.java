@@ -42,6 +42,8 @@ import java.util.List;
  * item details. On tablets, the activity presents the list of items and
  * item details side-by-side using two vertical panes.
  */
+
+
 public class ProjectActivity extends AppCompatActivity {
     //private final String ACTIVITY_NAME = ListItemsActivity.class.getSimpleName();
 

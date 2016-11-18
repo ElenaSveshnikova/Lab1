@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.elena.lab1.StartActivity"
+    android:background="@color/button_material_light">
+
+    <TextView
+        android:text="@string/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/project_textView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textSize="@dimen/abc_dialog_padding_top_material"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/password"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+    <EditText
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/login_message"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/prompt_email"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:background="@android:color/white" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_label"
+        android:id="@+id/button2"
+        android:layout_marginBottom="47dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="133dp"
+
+        android:id="@+id/imageView3"
+        android:src="@drawable/swe"
+        android:layout_below="@+id/project_textView"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="40dp" />
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonText"
+            android:id="@+id/button"
+            android:layout_below="@+id/project_textView"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonText1"
+            android:id="@+id/startChat"
+            android:layout_below="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:id="@+id/weather"
+            android:layout_below="@+id/startChat"
+            android:layout_alignStart="@+id/startChat" />
+
+        <Button
+            android:id="@+id/toolbarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/toolbarButtonText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonText2"
+            android:id="@+id/startProject"
+            android:layout_alignTop="@+id/toolbarButton"
+            android:layout_toEndOf="@+id/toolbarButton" />
+
+            -->
+    </RelativeLayout>

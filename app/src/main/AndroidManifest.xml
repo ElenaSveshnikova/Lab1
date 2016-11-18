@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elena.lab1">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".ListItemsActivity" />
+        <activity
+            android:name=".ChatWindow"
+            android:label="@string/title_activity_chat_window"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WeatherForecast"
+            android:label="@string/title_activity_weather_forecast"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageListActivity"
+            android:label="@string/title_message_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageDetailActivity"
+            android:label="@string/title_message_detail"
+            android:parentActivityName=".MessageListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elena.lab1.MessageListActivity" />
+        </activity>
+        <activity
+            android:name=".TestToolbar"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialog_custom"
+            android:label="@string/title_activity_dialog_custom"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProjectActivity"
+            android:label="@string/title_activity_project"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProjectWindow"
+            android:label="@string/title_activity_project_window"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
